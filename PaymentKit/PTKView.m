@@ -375,6 +375,12 @@ static NSString *const kPTKOldLocalizedStringsTableName = @"STPaymentLocalizable
         case PTKCardTypeVisa:
             cardTypeName = @"visa";
             break;
+        case PTKCardTypeMaestro:
+            cardTypeName = @"maestro";
+            break;
+        case PTKCardTypeChinaUnionPay:
+            cardTypeName = @"chinaunionpay";
+            break;
         default:
             break;
     }
